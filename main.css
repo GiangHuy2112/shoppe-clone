@@ -1,0 +1,21 @@
+/* #first {
+    color: pink;
+    font-size: 50px;
+}
+.second {
+    color: red;
+    font-size: 20px;
+} */
+:root {
+    
+    --text-color : violet;
+}
+
+h1 {
+    --my-color: red;
+    color: var(--my-color);
+}
+
+td {
+    color: var(--text-color);
+}
